@@ -26,7 +26,7 @@ class TicTacToe:
                 messagebox.showinfo("Tic Tac Toe", f"Player {self.player} wins!")
                 self.reset_board()
             elif self.is_draw():
-                messagebox.showinfo("Tic Tac Toe", "It's a draw!")
+                messagebox.showinfo("Tic Tac Toe", "It's a draw!!!")
                 self.reset_board()
             else:
                 self.player = 'O' if self.player == 'X' else 'X'
